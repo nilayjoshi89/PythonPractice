@@ -1,0 +1,20 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "VisualStudioExptTeam.vscodeintellicode",
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.pylint",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "johnpapa.vscode-peacock"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/python:3
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
